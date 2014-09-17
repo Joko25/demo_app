@@ -22,6 +22,7 @@ class MicropostsController < ApplicationController
 
   # GET /microposts/1/edit
   def edit
+    @user=User.all
   end
 
   # POST /microposts
